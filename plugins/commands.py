@@ -40,8 +40,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Filmspoterchannel'),
-            InlineKeyboardButton('💬Group💬', url='https://t.me/Filmspoters')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/cinemakottakatwo')
             ],[
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
@@ -65,7 +65,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📢Join Now📢", url='https://t.me/Filmspoterchannel'
+                    "📢Join Now📢", url='https://t.me/cinemakottakatwo'
                 )
             ]
         ]
@@ -83,8 +83,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Filmspoterchannel'),
-            InlineKeyboardButton('💬Group💬', url='https://t.me/Filmspoters')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/cinemakottakatwo')
             ],[
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
