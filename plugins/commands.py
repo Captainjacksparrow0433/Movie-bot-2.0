@@ -46,7 +46,7 @@ async def start(client, message):
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/filmspoteradmin')
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/assinankk')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -89,7 +89,7 @@ async def start(client, message):
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/filmspoteradmin')
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/assinankk')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
