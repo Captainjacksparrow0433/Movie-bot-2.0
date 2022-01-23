@@ -32,18 +32,7 @@ Note:- Give a user details
 ➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
 ➡️ <b>example</b> : - /covid India"""
-    
-    JSON_TXT ="""<b>JSON MODULE</b>
-JSON:
-Bot returns json for all replied messages with /json
 
-Features:
-Message Editting JSON
-Pm Support
-Group Support
-
-Note:
-Everyone can use this command , if spaming happens bot will automatically ban you from the group"""
     PIN_TXT ="""<b>PIN MODULE</b>
 
 <b>Pin :</b>
@@ -55,15 +44,6 @@ Everyone can use this command , if spaming happens bot will automatically ban yo
 ◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
 
 ◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
-    FUN_TXT ="""<b>FUN MODULE</b> 
-    
-<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
-t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
-𝟣. /dice - Roll The Dice 
-𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
-3. /Runs - Jokes 
-4. /Goal or /Shoot - To Make A Goal Or Shoot
-5. /luck or /cownd - Spin the Lucky"""
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
