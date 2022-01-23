@@ -28,11 +28,6 @@ Note:- Give a user details
 •/whois :-give a user full details"""
     ALIVE_TXT ="""<b>ALIVE MODULE</b>
 • /alive - check me alive or dead😁"""
-    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
-➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
-
-➡️ <b>example</b> : - /covid India"""
-
     PIN_TXT ="""<b>PIN MODULE</b>
 
 <b>Pin :</b>
