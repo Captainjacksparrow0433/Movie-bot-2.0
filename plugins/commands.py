@@ -18,8 +18,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Newcinemazz'),
-                InlineKeyboardButton('💬Group💬', url='https://t.me/cinemakottakatwo')
+                InlineKeyboardButton('🔊Channel🔊', url='https://t.me/filmbox112'),
+                InlineKeyboardButton('💬Group💬', url='https://t.me/filmboxcommunity')
             ],
             [
                 InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -40,13 +40,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Newcinemazz'),
-            InlineKeyboardButton('💬Group💬', url='https://t.me/cinemakottakatwo')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/filmbox112'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/filmboxcommunity')
             ],[
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/assinankk')
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/Abintply')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -65,7 +65,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📢Join Now📢", url='https://t.me/cinemakottakatwo'
+                    "📢Join Now📢", url='https://t.me/filmbox112'
                 )
             ]
         ]
@@ -83,13 +83,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Newcinemazz'),
-            InlineKeyboardButton('💬Group💬', url='https://t.me/cinemakottakatwo')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/filmbox112'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/filmboxcommunity')
             ],[
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/assinankk')
+            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/Abintply')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
