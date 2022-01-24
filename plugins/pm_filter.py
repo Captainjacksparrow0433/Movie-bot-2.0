@@ -400,13 +400,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Filmspoterchannel'),
-            InlineKeyboardButton('💬Group💬', url='https://t.me/Filmspoters')
+            InlineKeyboardButton('🔊Channel🔊', url='https://t.me/filmbox112'),
+            InlineKeyboardButton('💬Group💬', url='https://t.me/filmboxcommunity')
             ],[
             InlineKeyboardButton('🛠Help🛠', callback_data='help'),
             InlineKeyboardButton('😎About😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🧑‍💻Dev🧑‍💻', url='https://t.me/filmspoteradmin')
+            InlineKeyboardButton('😈Dev😈', url='https://t.me/Abintply')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('📊𝚂𝚃𝙰𝚃𝚄𝚂📊', callback_data='stats'),
-            InlineKeyboardButton('📚𝚂𝙾𝚄𝚁𝙲𝙴📚', url='https://t.me/biriyanikadaaa')
+            InlineKeyboardButton('📚𝚂𝙾𝚄𝚁𝙲𝙴📚', url='https://t.me/filmbox112')
             ],[
             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🛠Help🛠', callback_data='help')
