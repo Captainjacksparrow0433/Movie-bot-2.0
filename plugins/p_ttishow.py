@@ -38,8 +38,8 @@ async def save_group(bot, message):
             return
         buttons = [
             [
-                InlineKeyboardButton('🔊Channel🔊', url='https://t.me/Filmspoterchannel'),
-                InlineKeyboardButton('💬Group💬', url='https://t.me/Filmspoters')
+                InlineKeyboardButton('🔊Channel🔊', url='https://t.me/filmbox112'),
+                InlineKeyboardButton('💬Group💬', url='https://t.me/filmboxcommunity')
             ],
             [
                 InlineKeyboardButton('🅷🅴🅻🅿️', url=f"https://t.me/{temp.U_NAME}?start=help"),
