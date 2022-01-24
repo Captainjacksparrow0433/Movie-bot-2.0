@@ -175,7 +175,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nmade by @Lallu_tg 🔥"
+        shorten_urls += "\n\nmade by @Abintply 🔥"
         return shorten_urls
     except Exception as error:
         return error
